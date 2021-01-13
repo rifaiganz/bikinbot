@@ -1,6 +1,6 @@
 {
-  "limitCount": 25,
-  "memberLimit": 25,
+  "limitCount": 15,
+  "memberLimit": 5,
   "groupLimit": 25,
   "melodickey": "administrator",
   "barbarkey": "B4w56Fy3WQnfEyUNvQy8",
