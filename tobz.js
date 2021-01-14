@@ -3222,6 +3222,15 @@ ${desc}`)
                 tobz.reply(from, mess.error.Yt3, id)
             }
             break
+         case prefix+'nulis':
+            if(isReg(obj)) return
+            if(cekumur(cekage)) return
+            if (isLimit(serial)) return tobz.reply(from, `Maaf ${pushname}, Kuota Limit Kamu Sudah Habis, Ketik ${prefix}limit Untuk Mengecek Kuota Limit Kamu`, id)
+            if (args.length === 1) return tobz.reply(from, 'Kirim perintah #nulis [teks], contoh #nulis aku bukan boneka', id)
+            const ngetis = body.slice(8)
+            await tobz.sendFileFromUrl(from, `https://api.zeks.xyz/api/nulis?text=${ngetis}&apikey=apivinz`, 'ulis.jpg', '', id)
+            await limitAdd(serial)
+            break
         case prefix+'checkip':
             if(isReg(obj)) return
             if(cekumur(cekage)) return
