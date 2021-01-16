@@ -17,8 +17,8 @@ Note : Kalo Mau Work, Centang Kolom 1,2,3,5,6
 Clone this project
 
 ```bash
-> git clone https://github.com/TobyG74/ElainaBOT
-> cd ElainaBOT
+> git clone https://github.comrifaiganz/bikinbot.dll
+> cd bikinbot
 ```
 
 Install the dependencies:
@@ -215,4 +215,4 @@ Fix Stuck on linux, install google chrome stable:
 * [`ItzNgga`](https://github.com/ItzNgga/wa-bot.js) 
 * [`Gimenz`](https://github.com/Gimenz) 
 * [`ArugaZ`](https://github.com/ArugaZ/whatsapp-bot) 
-
+* [`tobz'](https://github.com/TobyG74/ElainaBOT)
